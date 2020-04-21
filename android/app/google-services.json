@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435695354316",
+    "firebase_url": "https://flash-chat-cd093.firebaseio.com",
+    "project_id": "flash-chat-cd093",
+    "storage_bucket": "flash-chat-cd093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435695354316:android:46cf19ad60e7898d3a1d69",
+        "android_client_info": {
+          "package_name": "co.skaftisveins.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435695354316-2hec554pl0rfhsu12kg1mu60veaciuej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1fNpF6ADRNxt2nuN1FHYhhRRBjs_AY-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435695354316-2hec554pl0rfhsu12kg1mu60veaciuej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
