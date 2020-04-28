@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 import 'login_screen.dart';
 import 'registration_screen.dart';
-import 'registration_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcome_screen';
@@ -29,18 +28,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
         .animate(controller);
 
     controller.forward();
-
-    // animation.addStatusListener((status) {
-    //   if (status == AnimationStatus.completed) {
-    //     controller.reverse(from: 1.0);
-    //   } else if (status == AnimationStatus.dismissed) {
-    //     controller.forward();
-    //   }
-    // });
-
     controller.addListener(() {
       setState(() {});
-      print(animation.value);
     });
   }
 
